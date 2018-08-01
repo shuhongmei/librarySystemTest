@@ -32,6 +32,11 @@ CREATE TABLE `t_book` (
 -- ----------------------------
 -- Records of t_book
 -- ----------------------------
-INSERT INTO `t_book` VALUES ('0', '算法导论', 'Thomas', '机械工业出版社', '0', '');
-INSERT INTO `t_book` VALUES ('1', '机器学习', '周志华', '清华大学出版社', '1', 'linyue');
-INSERT INTO `t_book` VALUES ('2', '实战机器学习', 'Peter', '人民邮电出版社', '1', 'linyue');
+INSERT INTO `t_book` VALUES ('6', '算法导论', 'Thomas', '机械工业出版社', '0', '');
+INSERT INTO `t_book` VALUES ('7', '机器学习', '周志华', '清华大学出版社', '0', '');
+INSERT INTO `t_book` VALUES ('8', '实战机器学习', 'Peter', '人民邮电出版社', '0', '');
+INSERT INTO `t_book` VALUES ('1', 'java编程思想', 'Bruce Eckel', '机械工业出版社', '1', 'shm');
+INSERT INTO `t_book` VALUES ('2', '史蒂夫·乔布斯传', '沃尔特·艾萨克森', '中信出版社', null, null);
+INSERT INTO `t_book` VALUES ('3', 'Java EE', 'aa', '明日出版社', null, null);
+INSERT INTO `t_book` VALUES ('4', 'Spring', 'bb', '未来出版社', '0', '');
+INSERT INTO `t_book` VALUES ('5', 'Spring + Spring MVC + MyBatis', 'cc', '将来出版社', '1', 'may');
